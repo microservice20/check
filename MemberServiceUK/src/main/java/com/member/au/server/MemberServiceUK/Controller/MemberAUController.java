@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.member.au.server.MemberServiceUK.MemberServiceUkApplication;
 
 @RestController
-@RequestMapping(value = "/uk")
+//@RequestMapping(value = "/uk")
 public class MemberAUController {
 
 	@RequestMapping(value = "/getMemberDetails", method = RequestMethod.GET)
